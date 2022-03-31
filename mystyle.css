@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
+
+body {
+    background-color: #011627 ;
+    font-family: 'Noto Sans SC', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 90vh;
+    overflow: hidden;
+    margin: 0;
+   }
+
+.pagetitle {
+    text-align: center;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size: 32px;
+    color: antiquewhite;
+}
+
+.btn {
+    background-color: #e71d36;
+    border-radius: 5px;
+    border: none;
+    color: antiquewhite;
+    margin: 15px;
+    padding: 18px 50px;
+    font-size: 16px;
+    font-family: inherit;
+    box-shadow: darkgray;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:active {
+    transform: scale(0.5);
+    transform: translateY(4px);
+    box-shadow: 0 0 15px antiquewhite;
+}
